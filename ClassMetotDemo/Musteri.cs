@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClassMetotDemo
+﻿namespace ClassMetotDemo
 {
-    internal class Musteri
+    public class Musteri
     {
         public string Name { get; set; }
         public string Surname { get; set; }

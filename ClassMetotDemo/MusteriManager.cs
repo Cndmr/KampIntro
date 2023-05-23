@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ClassMetotDemo
 {
-    internal class MusteriManager
+    public class MusteriManager
     {
         public void Ekle(Musteri musteri)
         {
-            Console.WriteLine(musteri.Name +"Müşteri Eklendi");
+            Console.WriteLine(musteri.Name +": Müşteri Eklendi");
         }
-        public void Sil (Musteri musteri)
+         public void Sil (Musteri musteri)
         {
-            Console.WriteLine(musteri.Name +"Müşteri Silindi");
+            Console.WriteLine(musteri.Name +": Müşteri Silindi");
         }
         public void Listele(Musteri[] musteriler)
          
@@ -22,7 +22,7 @@ namespace ClassMetotDemo
             Console.WriteLine("Müşteri Listesi");
             foreach (var item in musteriler)
             {
-                Console.WriteLine(item.Name + item.Surname + item.PhoneNumber);
+                Console.WriteLine(item.Name +" : "+ item.Surname + " : " + item.PhoneNumber);
 
             }
 
