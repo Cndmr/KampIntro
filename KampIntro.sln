@@ -37,11 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{6BF63D07-0E18-474A-A8A1-969A2CCDE63F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{E9A14F6D-A1D3-4638-8AB8-E04FFA188B8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{E9A14F6D-A1D3-4638-8AB8-E04FFA188B8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{D681A5F4-55DB-464C-89F6-F2A5CBA8E099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{7E879130-F5D6-4D2B-98A2-36FE6E11A7FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{7E879130-F5D6-4D2B-98A2-36FE6E11A7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{981B928D-DCD6-4AFF-810F-157C351570EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{7E879130-F5D6-4D2B-98A2-36FE6E11A7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E879130-F5D6-4D2B-98A2-36FE6E11A7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E879130-F5D6-4D2B-98A2-36FE6E11A7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981B928D-DCD6-4AFF-810F-157C351570EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981B928D-DCD6-4AFF-810F-157C351570EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981B928D-DCD6-4AFF-810F-157C351570EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981B928D-DCD6-4AFF-810F-157C351570EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

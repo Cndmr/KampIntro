@@ -1,7 +1,7 @@
 ﻿
 using Interfaces;
 
-CustomerManager customerManager=new CustomerManager();
+CustomerManager customerManager = new CustomerManager();
 customerManager.Add(new SqlServerCustomerDal());
 
 
@@ -17,6 +17,19 @@ Student student = new Student
 personManager.Add(student);
 Console.ReadLine();
 
+
+ICustomerDal[] customerDals = new ICustomerDal[3]
+{
+    new SqlServerCustomerDal(),
+    new OracleServerCustomerDal(),
+    new MySqlServerCustomerDal(),
+    
+};
+foreach (var item in customerDals)
+{
+    item.Add();
+}
+Console.ReadLine();
 interface IPersons
 {
     int Id { get; set; }
