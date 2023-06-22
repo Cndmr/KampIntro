@@ -1,4 +1,11 @@
 ﻿
+using Interfaces;
+
+CustomerManager customerManager=new CustomerManager();
+customerManager.Add(new SqlServerCustomerDal());
+
+
+
 PersonManager personManager = new PersonManager();
 personManager.Add(new Customer { Id = 1, Name = "Can", LastName = "Demir" });
 Student student = new Student
